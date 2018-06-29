@@ -1,8 +1,8 @@
 # Complete Guide to facebook-api-tasks
 
-Code for the entire scotch.io tutorial series: Complete Guide to facebook-api-tasks
+Facebok script/app that can automically delete a fanpage comment based on certain negative keywords
 
-We will be using Passport to authenticate users locally, with Facebook.
+Keywords - user will have option to choose the keywords.
 
 ## Instructions
 
