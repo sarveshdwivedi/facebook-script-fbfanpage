@@ -1,0 +1,84 @@
+cd /home/fbtesttasks
+cd /home/
+ls
+fbtesttasks/
+cd fbtesttasks/
+exit
+cd /home/fbtesttasks/
+ls
+ls
+rsync -rav telproback@52.39.212.226:/home/telproback .
+ls
+vi server.js 
+npm start
+npm start
+cd config/
+vi auth.js 
+cd ..
+npm start
+cd /home/fbtesttasks/
+cd app/
+cd ..
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+cd facebook-api-tasks/
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start

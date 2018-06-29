@@ -1,0 +1,45 @@
+<!-- views/profile.ejs -->
+<!doctype html>
+<html>
+<head>
+	<title>Facebook Fanpage Posts</title>
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+	<style>
+		body 		{ padding-top:80px; word-wrap:break-word; }
+	</style>
+</head>
+<body>
+<div class="container">
+	<h1><span class="fa fa-anchor"></span>Posts List</h1>
+	<div class="page-header text-right">	
+		<a href="/profile" class="btn btn-primary btn-sm">Profile</a>	
+		<a href="/logout" class="btn btn-default btn-sm">Logout</a>	
+	</div>
+
+	<div class="row">		
+		<!-- FACEBOOK INFORMATION -->
+		<div class="col-sm-12">
+			<div class="well">
+				<h3 class="text-primary"><span class="fa fa-facebook"></span> Facebook Pages</h3>
+				
+				<table border="1" width="100%">
+					<tr>
+					<th>Fb Post</th>
+					<th>Action</th>
+					</tr>
+					<% for(var i=0; i < posts.length; i++) { %>
+					<tr>
+						
+						<td><%= posts[i].post %></td>						
+						<td><a href="/removeFanPageComments/<%= posts[i].fbPageId %>/<%=  userId %>" class="btn btn-default btn-sm">Delete Comments</a></td>
+					</tr>
+					<% } %>
+				</table>	
+
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
